@@ -64,7 +64,7 @@ dtc -I dts -O dtb -o d1.dtb d1.dts
 
 Then build
 ```
-make PLATFORM=generic FW_FDT_PATH=../d1s.dtb CROSS_COMPILE=../riscv64-linux-x86_64-20200528/bin/riscv64-unknown-linux-gnu-
+make PLATFORM=generic FW_FDT_PATH=../d1s.dtb CROSS_COMPILE=../riscv64-linux-x86_64-20200528/bin/riscv64-unknown-linux-gnu- BUILD_INFO=y
 ```
 
 Find the firmware in build/platform/generic/firmware/fw_jump.bin
