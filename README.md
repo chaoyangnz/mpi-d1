@@ -42,8 +42,7 @@ https://github.com/xboot/xfel
 
 ### Serial Port USB converter driver
 
-Windows:
-Download from allwinner
+https://ftdichip.com/drivers/vcp-drivers/
 
 ## OpenSBI
 
