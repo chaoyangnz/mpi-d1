@@ -61,6 +61,7 @@ You can also edit the DTS file and compile to DTB when you need to add more devi
 sudo apt-get install device-tree-compiler
 dtc -I dts -O dtb -o d1.dtb d1.dts
 ```
+MangoPi Pro DTS: https://github.com/mangopi-sbc/Tina-Linux/blob/main/device/config/chips/f133/configs/pro/linux-5.4/board.dts
 
 Then build
 ```
