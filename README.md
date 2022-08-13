@@ -19,13 +19,16 @@ https://docs.microsoft.com/en-us/windows/wsl/connect-usb
 
 Typically like
 ```
-$usbipd wsl list
+$ usbipd wsl list
 BUSID  VID:PID    DEVICE                                                        STATE
 1-2    1462:7d25  USB Input Device                                              Not attached
 1-8    1f3a:efe8  USB Device(VID_1f3a_PID_efe8)                                 Attached - Ubuntu  <-----------------------
 1-14   8087:0026  Intel(R) Wireless Bluetooth(R)                                Not attached
 2-1    0403:6001  USB Serial Converter                                          Not attached
 4-2    046d:c534  USB Input Device                                              Not attached
+
+$ usbipd wsl attach --busid 1-8 -a
+
 ```
 
 - Windows
