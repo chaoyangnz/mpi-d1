@@ -58,10 +58,12 @@ As I am going to load opensbi directly to memory by xfel, the info passed by BRO
 But OpenSBI can embed the flat device tree in build. 
 Download the DTB file from https://github.com/LZU-OSLab/opensbi/releases/tag/v1.0
 You can also edit the DTS file and compile to DTB when you need to add more devices.
->> sudo apt-get install device-tree-compiler
->> dtc -I dts -O dtb -o d1.dtb d1.dts
+```
+sudo apt-get install device-tree-compiler
+dtc -I dts -O dtb -o d1.dtb d1.dts
+```
 
-Then
+Then build
 ```
 make PLATFORM=generic FW_FDT_PATH=../d1s.dtb CROSS_COMPILE=../riscv64-linux-x86_64-20200528/bin/riscv64-unknown-linux-gnu-
 ```
