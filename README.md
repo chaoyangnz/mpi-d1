@@ -1,5 +1,5 @@
 # mpi-d1
-baremetal onMangoPi MQ Pro (D1-H)
+baremetal on MangoPi MQ Pro (D1-H)
 
 ## Dev environment
 
