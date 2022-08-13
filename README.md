@@ -77,3 +77,6 @@ sudo xfel ddr d1
 sudo xfel write 0x80000000 opensbi/build/platform/generic/firmware/fw_jump.bin
 sudo xfel exec 0x80000000
 ```
+
+References:
+- https://bbs.aw-ol.com/topic/1061/%E8%8A%92%E6%9E%9C%E6%B4%BE-mpi-mq1-%E5%85%A8%E5%BF%97-d1s-%E5%BC%80%E5%8F%91%E6%9D%BF%E5%88%9D%E4%BD%93%E9%AA%8C
