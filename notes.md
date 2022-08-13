@@ -11,7 +11,11 @@ A SOC may include multiple cores (same or different arch) or DSPs.
 
 For example,
 - D1 includes a RISC-V core (T-Head Xuantie C906) and a DSP (Tensilica HiFi4)
-- JH7100 includes Dual-core RISC-V (SiFive U74) and other AI engines.
+- JH7100 includes Dual-core RISC-V (SiFive U74), Tensillica VP-6 DSP and NVDLA engine and other AI engines.
+
+SOC is a physical chip.
+
+
 
 Boards are building a system typically like a SBC, its center is the SOC, and then add peripherals, like DRAM, NAND, TF Storage, USB, Ethernet, Bluetooth, WIFI, GPIO,.. all kinds of interfaces and pinouts.
 
