@@ -22,3 +22,4 @@ Boards based on D1/D1s:
 
 Boards based on JH7100:
 - StarFive VisionFive  
+- BeagleV Starlight (Cancelled)
